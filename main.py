@@ -13,8 +13,12 @@ driver = webdriver.Chrome(service=service, options=options)
 # Open Google
 driver.get("https://www.linkedin.com/")
 
+
+
 # A
-#element = driver.find_element(By.XPATH, "//a[@class='nav__button-secondary btn-secondary-emphasis btn-md' and text()='Entrar']").click()
+element = driver.find_element(By.XPATH, "/html/body/nav/div/a[normalize-space(text())='Entrar']")
+element.click()
+print("Button pressed")
 
-
-input("Press Enter to close the browser...")
+import time
+time.sleep(2)
