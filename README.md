@@ -8,4 +8,4 @@ O WebDriver é obrigatório para a utilização do Selenium, mas ele não é ins
 
 # Método de Login no Linkedin
 
-Renomeie o arquivo "credential.env.example" para "credential.env" e preencha suas credenciais do Linkedin.
+Renomeie o arquivo "credential.json.example" para "credential.json" e preencha suas credenciais do Linkedin.
