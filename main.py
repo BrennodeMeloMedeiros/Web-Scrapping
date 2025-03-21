@@ -29,7 +29,13 @@ options.add_argument(
     f'--user-agent={userAgentNavegador}'
 )
 
+# - Desativar enable-automation
+# A opção de "enable-automation" é umas das formas que o Selenium informa o site que é uma automaçã oque está acessando ele. 
+# Ele é responsével pelo banner de “Chrome is being controlled by automated test software” e por modificar alguns objetos que o JavaScript pode ler para saber se é uma automação acessando o site ou não
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
+
+# Desativer extensão
+# O Selenium usa uma extensão junto com o Chromium para facilitar encontrar alguns elementos na página. Essa extensão deixa rastro e é uma das formas como sites vão verificar se é ou não um bot, então é necessário ser desativado
 options.add_experimental_option("useAutomationExtension", False)
 
 
