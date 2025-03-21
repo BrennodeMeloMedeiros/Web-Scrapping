@@ -4,7 +4,7 @@ O objetivo dessa automação é coletar dados e oportunidades de emprego que o l
 
 A prioridade desse projeto é ser um Web Scrapper indetectável que oferece conveniência ao usuário. Tornam essa Scrapper indetável:
 - Utilização de Cookies para login único;
-- Simulação de comportamento humano randomizado;
+- Simulação de comportamento humano randomizado (moviemnto de cursor, pausa nas ações, etc);
 - Configuração do Chromium para eliminar rastros e deteções via JavaScript.
 
 # Passo 1 - Usando Selenium (com Chrome)
