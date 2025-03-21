@@ -31,6 +31,7 @@ campoSenhaLogin.send_keys(senhaLinkedin)
 
 #botao =  driver.find_element(By.ID, "password")
 
+
 import time
 time.sleep(2)
 
