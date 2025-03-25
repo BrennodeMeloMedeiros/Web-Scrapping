@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-from ler_credenciais import emailLinkedin, senhaLinkedin, userAgentNavegador
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
 
 
 service = Service(ChromeDriverManager().install())
@@ -26,7 +26,7 @@ options.add_argument("--start-maximized")
 # - USER-AGENT:
 # É um argumento enviado para o site com algumas informações sobre o seu navegador. O selenium usar um user-agent genérico, então aplicar esse diferencial é uma boa vantagem
 options.add_argument(
-    f'--user-agent={userAgentNavegador}'
+    f'--user-agent={USER_AGENT}'
 )
 
 # - Desativar enable-automation
