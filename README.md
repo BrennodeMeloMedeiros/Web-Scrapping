@@ -21,11 +21,14 @@ banimento ou suspenção, é necessário que o você atualize o variavel "USER_A
 
 Como pegar o USER AGENT do seu navegador:
 - Acesse https://www.whatismybrowser.com/
-- Desça até o fim da página, onde seu AGENT pode ser encontrado. Ele parece com algo assim: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Chrome/134.0.5827.94 Edg/134.0 Safari/537.88"
+- Desça até o fim da página, onde seu AGENT pode ser encontrado. Ele parece com algo assim: 
+"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Chrome/134.0.5827.94 Edg/134.0 Safari/537.88"
 
 # Passo 3 - Rodar [primeiro_acesso.py]
 É necessário que o login para a sua conta seja realizada manualmente pelo menos uma vez.
 
-Rode o script [priimeiros_acesso.py]. Ele irá abrir a página de login do linkedin. Você terá 30 segundos antes da automação fechar automaticamente e salvar os cookies. Utilize esses segundos para realizar o login na sua conta e resolver o CAPTCHA, se necessário. 
+Rode o script [primeiros_acesso.py]. Ele irá abrir a página de login do linkedin. 
+
+Você terá 30 segundos antes da automação fechar automaticamente e salvar os cookies. Utilize esses segundos para realizar o login na sua conta e resolver o CAPTCHA, se necessário. 
 
 ! - Se os 30 segundos não foram o suficiente, tente novamente. Os cookies da última tentativa são os que valem.
